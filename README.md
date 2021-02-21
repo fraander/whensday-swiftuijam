@@ -6,8 +6,8 @@ Whensday is the all-in-one task list and planner. Mark both when tasks are due a
 
 ## Screeshots
 
-![tasks_ios](README assets/tasks_ios.png)
+![tasks_ios](https://github.com/fraander/-swiftuijam_feb2021/blob/main/README%20assets/tasks_ios.png)
 
-![planned_ios](README assets/planned_ios.png)
+![planned_ios](https://github.com/fraander/-swiftuijam_feb2021/blob/main/README%20assets/planned_ios.png)
 
-![deadlines_ios](README assets/deadlines_ios.png)
+![deadlines_ios](https://github.com/fraander/-swiftuijam_feb2021/blob/main/README%20assets/deadlines_ios.png)
