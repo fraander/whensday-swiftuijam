@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01326EA825E079BA00969DD9 /* Deadlines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01326EA725E079BA00969DD9 /* Deadlines.swift */; };
+		01326EA925E079BA00969DD9 /* Deadlines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01326EA725E079BA00969DD9 /* Deadlines.swift */; };
+		01326EB425E07A4A00969DD9 /* DeadlineDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01326EB325E07A4A00969DD9 /* DeadlineDayView.swift */; };
+		01326EB525E07A4A00969DD9 /* DeadlineDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01326EB325E07A4A00969DD9 /* DeadlineDayView.swift */; };
+		0158EF0C25E0823C00C29402 /* TaskDeadlineEditorPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0158EF0B25E0823C00C29402 /* TaskDeadlineEditorPopover.swift */; };
+		0158EF0D25E0823C00C29402 /* TaskDeadlineEditorPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0158EF0B25E0823C00C29402 /* TaskDeadlineEditorPopover.swift */; };
+		0158EF1125E0827F00C29402 /* TaskDoDateEditorPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0158EF1025E0827F00C29402 /* TaskDoDateEditorPopover.swift */; };
+		0158EF1225E0827F00C29402 /* TaskDoDateEditorPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0158EF1025E0827F00C29402 /* TaskDoDateEditorPopover.swift */; };
+		0161100B25E20281000BCEE9 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0161100A25E20281000BCEE9 /* PickerView.swift */; };
+		0161100C25E20281000BCEE9 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0161100A25E20281000BCEE9 /* PickerView.swift */; };
+		0161101A25E2142D000BCEE9 /* ImportanceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0161101925E2142D000BCEE9 /* ImportanceButton.swift */; };
+		0161101B25E2142D000BCEE9 /* ImportanceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0161101925E2142D000BCEE9 /* ImportanceButton.swift */; };
+		0172A8BD25E2DD8C00B1EA86 /* iOSModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0172A8BC25E2DD8C00B1EA86 /* iOSModifier.swift */; };
+		0172A8C125E2E20500B1EA86 /* SectionTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0172A8C025E2E20500B1EA86 /* SectionTitle.swift */; };
+		0172A8C225E2E20500B1EA86 /* SectionTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0172A8C025E2E20500B1EA86 /* SectionTitle.swift */; };
+		0172A8C625E2E5D700B1EA86 /* AddViewPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0172A8C525E2E5D700B1EA86 /* AddViewPhone.swift */; };
+		0172A8C725E2E5D700B1EA86 /* AddViewPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0172A8C525E2E5D700B1EA86 /* AddViewPhone.swift */; };
+		01930F7225E04228000CD2CB /* DeadlinePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01930F7125E04228000CD2CB /* DeadlinePicker.swift */; };
+		01930F7325E04228000CD2CB /* DeadlinePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01930F7125E04228000CD2CB /* DeadlinePicker.swift */; };
+		01930F7725E04283000CD2CB /* DoDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01930F7625E04283000CD2CB /* DoDatePicker.swift */; };
+		01930F7825E04283000CD2CB /* DoDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01930F7625E04283000CD2CB /* DoDatePicker.swift */; };
+		01930F7C25E042D2000CD2CB /* AddTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01930F7B25E042D2000CD2CB /* AddTextField.swift */; };
+		01930F7D25E042D2000CD2CB /* AddTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01930F7B25E042D2000CD2CB /* AddTextField.swift */; };
+		01930F8125E04B81000CD2CB /* DoDates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01930F8025E04B81000CD2CB /* DoDates.swift */; };
+		01930F8225E04B81000CD2CB /* DoDates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01930F8025E04B81000CD2CB /* DoDates.swift */; };
+		01930F8925E04F85000CD2CB /* DeadlinePickerPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01930F8825E04F85000CD2CB /* DeadlinePickerPopover.swift */; };
+		01930F8A25E04F85000CD2CB /* DeadlinePickerPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01930F8825E04F85000CD2CB /* DeadlinePickerPopover.swift */; };
+		01930F8E25E0504B000CD2CB /* DoDatePickerPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01930F8D25E0504B000CD2CB /* DoDatePickerPopover.swift */; };
+		01930F8F25E0504B000CD2CB /* DoDatePickerPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01930F8D25E0504B000CD2CB /* DoDatePickerPopover.swift */; };
+		01930F9325E052FE000CD2CB /* DeadlineEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01930F9225E052FE000CD2CB /* DeadlineEditor.swift */; };
+		01930F9425E052FE000CD2CB /* DeadlineEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01930F9225E052FE000CD2CB /* DeadlineEditor.swift */; };
+		01930F9825E05348000CD2CB /* DoDateEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01930F9725E05348000CD2CB /* DoDateEditor.swift */; };
+		01930F9925E05348000CD2CB /* DoDateEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01930F9725E05348000CD2CB /* DoDateEditor.swift */; };
+		01930FC825E06898000CD2CB /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01930FC725E06898000CD2CB /* DayView.swift */; };
+		01930FC925E06898000CD2CB /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01930FC725E06898000CD2CB /* DayView.swift */; };
+		01B9E64225DF6010006AD05C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01B9E62D25DF6010006AD05C /* Assets.xcassets */; };
+		01B9E64325DF6010006AD05C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01B9E62D25DF6010006AD05C /* Assets.xcassets */; };
+		01B9E65025DF6039006AD05C /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 01B9E64E25DF6039006AD05C /* Model.xcdatamodeld */; };
+		01B9E65125DF6039006AD05C /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 01B9E64E25DF6039006AD05C /* Model.xcdatamodeld */; };
+		01B9E65525DF6073006AD05C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B9E65425DF6073006AD05C /* Persistence.swift */; };
+		01B9E65625DF6073006AD05C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B9E65425DF6073006AD05C /* Persistence.swift */; };
+		01B9E65A25DF617C006AD05C /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B9E65925DF617C006AD05C /* CoreDataHelper.swift */; };
+		01B9E65B25DF617C006AD05C /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B9E65925DF617C006AD05C /* CoreDataHelper.swift */; };
+		01D34FA425E027D70078B3F7 /* Task+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D34FA225E027D70078B3F7 /* Task+CoreDataClass.swift */; };
+		01D34FA525E027D70078B3F7 /* Task+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D34FA225E027D70078B3F7 /* Task+CoreDataClass.swift */; };
+		01D34FA625E027D70078B3F7 /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D34FA325E027D70078B3F7 /* Task+CoreDataProperties.swift */; };
+		01D34FA725E027D70078B3F7 /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D34FA325E027D70078B3F7 /* Task+CoreDataProperties.swift */; };
+		01D34FAB25E02BC80078B3F7 /* NetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D34FAA25E02BC70078B3F7 /* NetView.swift */; };
+		01D34FAC25E02BC80078B3F7 /* NetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D34FAA25E02BC70078B3F7 /* NetView.swift */; };
+		01D34FB125E03F420078B3F7 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D34FB025E03F420078B3F7 /* TaskView.swift */; };
+		01D34FB225E03F420078B3F7 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D34FB025E03F420078B3F7 /* TaskView.swift */; };
+		01D34FB625E040680078B3F7 /* NewTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D34FB525E040680078B3F7 /* NewTaskView.swift */; };
+		01D34FB725E040680078B3F7 /* NewTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D34FB525E040680078B3F7 /* NewTaskView.swift */; };
+		01D749E125E0205800724457 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D749E025E0205800724457 /* Main.swift */; };
+		01D749E225E0205800724457 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D749E025E0205800724457 /* Main.swift */; };
+		01D749E825E0223000724457 /* AllTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D749E725E0223000724457 /* AllTasks.swift */; };
+		01D749E925E0223000724457 /* AllTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D749E725E0223000724457 /* AllTasks.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01326EA725E079BA00969DD9 /* Deadlines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deadlines.swift; sourceTree = "<group>"; };
+		01326EB325E07A4A00969DD9 /* DeadlineDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadlineDayView.swift; sourceTree = "<group>"; };
+		0158EF0B25E0823C00C29402 /* TaskDeadlineEditorPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDeadlineEditorPopover.swift; sourceTree = "<group>"; };
+		0158EF1025E0827F00C29402 /* TaskDoDateEditorPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDoDateEditorPopover.swift; sourceTree = "<group>"; };
+		0161100A25E20281000BCEE9 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		0161101925E2142D000BCEE9 /* ImportanceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportanceButton.swift; sourceTree = "<group>"; };
+		0172A8BC25E2DD8C00B1EA86 /* iOSModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSModifier.swift; sourceTree = "<group>"; };
+		0172A8C025E2E20500B1EA86 /* SectionTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTitle.swift; sourceTree = "<group>"; };
+		0172A8C525E2E5D700B1EA86 /* AddViewPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewPhone.swift; sourceTree = "<group>"; };
+		01930F7125E04228000CD2CB /* DeadlinePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadlinePicker.swift; sourceTree = "<group>"; };
+		01930F7625E04283000CD2CB /* DoDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoDatePicker.swift; sourceTree = "<group>"; };
+		01930F7B25E042D2000CD2CB /* AddTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTextField.swift; sourceTree = "<group>"; };
+		01930F8025E04B81000CD2CB /* DoDates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoDates.swift; sourceTree = "<group>"; };
+		01930F8825E04F85000CD2CB /* DeadlinePickerPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadlinePickerPopover.swift; sourceTree = "<group>"; };
+		01930F8D25E0504B000CD2CB /* DoDatePickerPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoDatePickerPopover.swift; sourceTree = "<group>"; };
+		01930F9225E052FE000CD2CB /* DeadlineEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadlineEditor.swift; sourceTree = "<group>"; };
+		01930F9725E05348000CD2CB /* DoDateEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoDateEditor.swift; sourceTree = "<group>"; };
+		01930FC725E06898000CD2CB /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
+		01B9E62D25DF6010006AD05C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01B9E63225DF6010006AD05C /* Whensday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Whensday.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01B9E63525DF6010006AD05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01B9E63A25DF6010006AD05C /* Whensday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Whensday.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01B9E63C25DF6010006AD05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01B9E63D25DF6010006AD05C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		01B9E64F25DF6039006AD05C /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		01B9E65425DF6073006AD05C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		01B9E65925DF617C006AD05C /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		01D34FA225E027D70078B3F7 /* Task+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		01D34FA325E027D70078B3F7 /* Task+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		01D34FAA25E02BC70078B3F7 /* NetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetView.swift; path = Views/NetView.swift; sourceTree = "<group>"; };
+		01D34FB025E03F420078B3F7 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		01D34FB525E040680078B3F7 /* NewTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskView.swift; sourceTree = "<group>"; };
+		01D749E025E0205800724457 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		01D749E725E0223000724457 /* AllTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTasks.swift; sourceTree = "<group>"; };
+		01F5096525E0142800559250 /* When's it Do.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "When's it Do.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01B9E62F25DF6010006AD05C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01B9E63725DF6010006AD05C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01326EAC25E079BF00969DD9 /* Deadlines */ = {
+			isa = PBXGroup;
+			children = (
+				01326EA725E079BA00969DD9 /* Deadlines.swift */,
+				01326EB325E07A4A00969DD9 /* DeadlineDayView.swift */,
+			);
+			name = Deadlines;
+			path = ../Deadlines;
+			sourceTree = "<group>";
+		};
+		01930F8525E04B85000CD2CB /* Do Dates */ = {
+			isa = PBXGroup;
+			children = (
+				01930F8025E04B81000CD2CB /* DoDates.swift */,
+				01930FC725E06898000CD2CB /* DayView.swift */,
+			);
+			path = "Do Dates";
+			sourceTree = "<group>";
+		};
+		01B9E62525DF600F006AD05C = {
+			isa = PBXGroup;
+			children = (
+				0172A8C525E2E5D700B1EA86 /* AddViewPhone.swift */,
+				0172A8BC25E2DD8C00B1EA86 /* iOSModifier.swift */,
+				0161101925E2142D000BCEE9 /* ImportanceButton.swift */,
+				01B9E62A25DF600F006AD05C /* Shared */,
+				01B9E63425DF6010006AD05C /* iOS */,
+				01B9E63B25DF6010006AD05C /* macOS */,
+				01B9E63325DF6010006AD05C /* Products */,
+				01F5096525E0142800559250 /* When's it Do.entitlements */,
+			);
+			sourceTree = "<group>";
+		};
+		01B9E62A25DF600F006AD05C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				01D749E025E0205800724457 /* Main.swift */,
+				01D34FAA25E02BC70078B3F7 /* NetView.swift */,
+				0172A8C025E2E20500B1EA86 /* SectionTitle.swift */,
+				01F5096E25E014B500559250 /* Views */,
+				01F5096B25E014A000559250 /* Model */,
+				01B9E62D25DF6010006AD05C /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		01B9E63325DF6010006AD05C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01B9E63225DF6010006AD05C /* Whensday.app */,
+				01B9E63A25DF6010006AD05C /* Whensday.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01B9E63425DF6010006AD05C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				01B9E63525DF6010006AD05C /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		01B9E63B25DF6010006AD05C /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				01B9E63C25DF6010006AD05C /* Info.plist */,
+				01B9E63D25DF6010006AD05C /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		01D34FAF25E03F340078B3F7 /* All Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				0161100A25E20281000BCEE9 /* PickerView.swift */,
+				01D749E725E0223000724457 /* AllTasks.swift */,
+				0158EF1025E0827F00C29402 /* TaskDoDateEditorPopover.swift */,
+				01930F9725E05348000CD2CB /* DoDateEditor.swift */,
+				01930F8825E04F85000CD2CB /* DeadlinePickerPopover.swift */,
+				0158EF0B25E0823C00C29402 /* TaskDeadlineEditorPopover.swift */,
+				01930F7125E04228000CD2CB /* DeadlinePicker.swift */,
+				01930F7625E04283000CD2CB /* DoDatePicker.swift */,
+				01930F8D25E0504B000CD2CB /* DoDatePickerPopover.swift */,
+				01930F7B25E042D2000CD2CB /* AddTextField.swift */,
+				01D34FB525E040680078B3F7 /* NewTaskView.swift */,
+				01D34FB025E03F420078B3F7 /* TaskView.swift */,
+				01930F9225E052FE000CD2CB /* DeadlineEditor.swift */,
+			);
+			path = "All Tasks";
+			sourceTree = "<group>";
+		};
+		01F5096B25E014A000559250 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				01D34FA225E027D70078B3F7 /* Task+CoreDataClass.swift */,
+				01D34FA325E027D70078B3F7 /* Task+CoreDataProperties.swift */,
+				01B9E65925DF617C006AD05C /* CoreDataHelper.swift */,
+				01B9E65425DF6073006AD05C /* Persistence.swift */,
+				01B9E64E25DF6039006AD05C /* Model.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		01F5096E25E014B500559250 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				01326EAC25E079BF00969DD9 /* Deadlines */,
+				01930F8525E04B85000CD2CB /* Do Dates */,
+				01D34FAF25E03F340078B3F7 /* All Tasks */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01B9E63125DF6010006AD05C /* Whensday (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01B9E64625DF6010006AD05C /* Build configuration list for PBXNativeTarget "Whensday (iOS)" */;
+			buildPhases = (
+				01B9E62E25DF6010006AD05C /* Sources */,
+				01B9E62F25DF6010006AD05C /* Frameworks */,
+				01B9E63025DF6010006AD05C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Whensday (iOS)";
+			productName = "Core Data Template (iOS)";
+			productReference = 01B9E63225DF6010006AD05C /* Whensday.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01B9E63925DF6010006AD05C /* Whensday (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01B9E64925DF6010006AD05C /* Build configuration list for PBXNativeTarget "Whensday (macOS)" */;
+			buildPhases = (
+				01B9E63625DF6010006AD05C /* Sources */,
+				01B9E63725DF6010006AD05C /* Frameworks */,
+				01B9E63825DF6010006AD05C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Whensday (macOS)";
+			productName = "Core Data Template (macOS)";
+			productReference = 01B9E63A25DF6010006AD05C /* Whensday.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01B9E62625DF600F006AD05C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					01B9E63125DF6010006AD05C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					01B9E63925DF6010006AD05C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 01B9E62925DF600F006AD05C /* Build configuration list for PBXProject "Whensday" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01B9E62525DF600F006AD05C;
+			productRefGroup = 01B9E63325DF6010006AD05C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01B9E63125DF6010006AD05C /* Whensday (iOS) */,
+				01B9E63925DF6010006AD05C /* Whensday (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01B9E63025DF6010006AD05C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B9E64225DF6010006AD05C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01B9E63825DF6010006AD05C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B9E64325DF6010006AD05C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01B9E62E25DF6010006AD05C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B9E65A25DF617C006AD05C /* CoreDataHelper.swift in Sources */,
+				01D749E125E0205800724457 /* Main.swift in Sources */,
+				01D34FAB25E02BC80078B3F7 /* NetView.swift in Sources */,
+				01326EA825E079BA00969DD9 /* Deadlines.swift in Sources */,
+				01D749E825E0223000724457 /* AllTasks.swift in Sources */,
+				0172A8C125E2E20500B1EA86 /* SectionTitle.swift in Sources */,
+				01930F8925E04F85000CD2CB /* DeadlinePickerPopover.swift in Sources */,
+				0158EF1125E0827F00C29402 /* TaskDoDateEditorPopover.swift in Sources */,
+				01B9E65525DF6073006AD05C /* Persistence.swift in Sources */,
+				01D34FA625E027D70078B3F7 /* Task+CoreDataProperties.swift in Sources */,
+				01930F8125E04B81000CD2CB /* DoDates.swift in Sources */,
+				01D34FB625E040680078B3F7 /* NewTaskView.swift in Sources */,
+				01930F7C25E042D2000CD2CB /* AddTextField.swift in Sources */,
+				01D34FA425E027D70078B3F7 /* Task+CoreDataClass.swift in Sources */,
+				01930F7725E04283000CD2CB /* DoDatePicker.swift in Sources */,
+				0172A8C625E2E5D700B1EA86 /* AddViewPhone.swift in Sources */,
+				01D34FB125E03F420078B3F7 /* TaskView.swift in Sources */,
+				01930F9825E05348000CD2CB /* DoDateEditor.swift in Sources */,
+				0172A8BD25E2DD8C00B1EA86 /* iOSModifier.swift in Sources */,
+				0158EF0C25E0823C00C29402 /* TaskDeadlineEditorPopover.swift in Sources */,
+				01930F9325E052FE000CD2CB /* DeadlineEditor.swift in Sources */,
+				01326EB425E07A4A00969DD9 /* DeadlineDayView.swift in Sources */,
+				01930F7225E04228000CD2CB /* DeadlinePicker.swift in Sources */,
+				01930F8E25E0504B000CD2CB /* DoDatePickerPopover.swift in Sources */,
+				01B9E65025DF6039006AD05C /* Model.xcdatamodeld in Sources */,
+				0161101A25E2142D000BCEE9 /* ImportanceButton.swift in Sources */,
+				0161100B25E20281000BCEE9 /* PickerView.swift in Sources */,
+				01930FC825E06898000CD2CB /* DayView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01B9E63625DF6010006AD05C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B9E65B25DF617C006AD05C /* CoreDataHelper.swift in Sources */,
+				01D749E225E0205800724457 /* Main.swift in Sources */,
+				01D34FAC25E02BC80078B3F7 /* NetView.swift in Sources */,
+				01326EA925E079BA00969DD9 /* Deadlines.swift in Sources */,
+				01D749E925E0223000724457 /* AllTasks.swift in Sources */,
+				01930F8A25E04F85000CD2CB /* DeadlinePickerPopover.swift in Sources */,
+				0158EF1225E0827F00C29402 /* TaskDoDateEditorPopover.swift in Sources */,
+				01B9E65625DF6073006AD05C /* Persistence.swift in Sources */,
+				01D34FA725E027D70078B3F7 /* Task+CoreDataProperties.swift in Sources */,
+				01930F8225E04B81000CD2CB /* DoDates.swift in Sources */,
+				01D34FB725E040680078B3F7 /* NewTaskView.swift in Sources */,
+				01930F7D25E042D2000CD2CB /* AddTextField.swift in Sources */,
+				01D34FA525E027D70078B3F7 /* Task+CoreDataClass.swift in Sources */,
+				01930F7825E04283000CD2CB /* DoDatePicker.swift in Sources */,
+				01D34FB225E03F420078B3F7 /* TaskView.swift in Sources */,
+				01930F9925E05348000CD2CB /* DoDateEditor.swift in Sources */,
+				0158EF0D25E0823C00C29402 /* TaskDeadlineEditorPopover.swift in Sources */,
+				01930F9425E052FE000CD2CB /* DeadlineEditor.swift in Sources */,
+				01326EB525E07A4A00969DD9 /* DeadlineDayView.swift in Sources */,
+				0172A8C725E2E5D700B1EA86 /* AddViewPhone.swift in Sources */,
+				01930F7325E04228000CD2CB /* DeadlinePicker.swift in Sources */,
+				01930F8F25E0504B000CD2CB /* DoDatePickerPopover.swift in Sources */,
+				01B9E65125DF6039006AD05C /* Model.xcdatamodeld in Sources */,
+				0172A8C225E2E20500B1EA86 /* SectionTitle.swift in Sources */,
+				0161101B25E2142D000BCEE9 /* ImportanceButton.swift in Sources */,
+				0161100C25E20281000BCEE9 /* PickerView.swift in Sources */,
+				01930FC925E06898000CD2CB /* DayView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		01B9E64425DF6010006AD05C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01B9E64525DF6010006AD05C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		01B9E64725DF6010006AD05C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "When's it Do.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ZT823VK2T;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.frank.whensday;
+				PRODUCT_NAME = Whensday;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01B9E64825DF6010006AD05C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "When's it Do.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ZT823VK2T;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.frank.whensday;
+				PRODUCT_NAME = Whensday;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01B9E64A25DF6010006AD05C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6ZT823VK2T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.frank.whensday;
+				PRODUCT_NAME = Whensday;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		01B9E64B25DF6010006AD05C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6ZT823VK2T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.frank.whensday;
+				PRODUCT_NAME = Whensday;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01B9E62925DF600F006AD05C /* Build configuration list for PBXProject "Whensday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01B9E64425DF6010006AD05C /* Debug */,
+				01B9E64525DF6010006AD05C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01B9E64625DF6010006AD05C /* Build configuration list for PBXNativeTarget "Whensday (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01B9E64725DF6010006AD05C /* Debug */,
+				01B9E64825DF6010006AD05C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01B9E64925DF6010006AD05C /* Build configuration list for PBXNativeTarget "Whensday (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01B9E64A25DF6010006AD05C /* Debug */,
+				01B9E64B25DF6010006AD05C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		01B9E64E25DF6039006AD05C /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				01B9E64F25DF6039006AD05C /* Model.xcdatamodel */,
+			);
+			currentVersion = 01B9E64F25DF6039006AD05C /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 01B9E62625DF600F006AD05C /* Project object */;
+}
