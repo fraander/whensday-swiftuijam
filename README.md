@@ -12,3 +12,6 @@ Whensday is the all-in-one task list and planner. Mark both when tasks are due a
 ![planned_ios](https://github.com/fraander/-swiftuijam_feb2021/blob/main/README%20assets/planned_ios.png)
 
 ![deadlines_ios](https://github.com/fraander/-swiftuijam_feb2021/blob/main/README%20assets/deadlines_ios.png)
+
+## Privacy Policy
+I don't store and cannot see the data you add as tasks. I can see some logs of what Xcode sends me, though these don't contain identifying information.
