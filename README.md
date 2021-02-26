@@ -4,6 +4,9 @@
 Whensday is the all-in-one task list and planner. Mark both when tasks are due and when you want to do them so that you can stay organized! It works on iOS, iPadOS, and MacOS and features dark mode support.
 
 
+## TestFlight Link
+https://testflight.apple.com/join/G4409Sk0
+
 
 ## Screeshots
 
